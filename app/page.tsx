@@ -4,15 +4,12 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main>
-      <body className="bg-[#202020] w-full h-full">
+      <body className="bg-[#101010] w-full h-screen">
         <NavBar/>
-        <div className="flex h-96">
-          <div className="m-auto">
-            <h1 className="flex w-full text-white text-6xl font-montserrat justify-center align-middle">
+            <h1 className="flex w-full h-1/2 text-white text-9xl font-montserrat justify-center align-bottom items-end">
                 Paleyontology
             </h1>
-          </div>
-        </div>
+          
       </body>
     </main>
     
