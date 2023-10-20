@@ -6,9 +6,13 @@ export default function Home() {
     <main>
       <body className="bg-[#202020] w-full h-full">
         <NavBar/>
-        <h1 className="flex w-full text-white text-6xl font-montserrat">
-            Paleyontology
-        </h1>
+        <div className="flex h-96">
+          <div className="m-auto">
+            <h1 className="flex w-full text-white text-6xl font-montserrat justify-center align-middle">
+                Paleyontology
+            </h1>
+          </div>
+        </div>
       </body>
     </main>
     
